@@ -20,7 +20,7 @@ public class UserController {
     @ResponseBody
     @RequestMapping("/list")
  public Object list(){
-        System.out.println("修改了分支");
+        System.out.println("修改了分支111222");
         return userService.getUserList();
     }
 }
